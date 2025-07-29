@@ -1,0 +1,818 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Directory Landing Page</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+		<!--flaticon.css-->
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--slick.css-->
+        <link rel="stylesheet" href="assets/css/slick.css">
+		<link rel="stylesheet" href="assets/css/slick-theme.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+
+<!-- HEADER TOP START -->
+<header id="header-top" class="header-top">
+    <ul>
+        <li>
+            <div class="header-top-left">
+                <ul>
+                    <li class="select-opt">
+                        <select name="language" id="language">
+                            <option value="default">EN</option>
+                            <option value="BN">BN</option>
+                            <option value="AB">AR</option>
+                        </select>
+                    </li>
+                    <li class="select-opt">
+                        <select name="currency" id="currency">
+                            <option value="usd">USD</option>
+                            <option value="euro">EUR</option>
+                            <option value="ngn">NGN</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="head-responsive-right pull-right">
+            <div class="header-top-right">
+                <ul>
+                    <li class="header-top-contact">
+                        📞 +234 907 413 2182
+                    </li>
+                    <li class="header-top-contact">
+                        <a href="#">Sign In</a>
+                    </li>
+                    <li class="header-top-contact">
+                        <a href="#">Add Listing</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</header>
+<!-- HEADER TOP END -->
+
+<!-- NAVBAR START -->
+<section class="top-area">
+    <div class="header-area">
+        <nav class="navbar navbar-default bootsnav navbar-sticky navbar-scrollspy" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Bizoria <span style="font-size:12px; display:block;">Find • Connect • Grow</span></a>
+                </div>
+                <!-- Menu -->
+                <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="scroll active"><a href="#home">Home</a></li>
+                        <li class="scroll"><a href="#works">How It Works</a></li>
+                        <li class="scroll"><a href="#explore">Explore</a></li>
+                        <li class="scroll"><a href="#reviews">Reviews</a></li>
+                        <li class="scroll"><a href="#blog">Blog</a></li>
+                        <li class="scroll"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>
+<!-- NAVBAR END -->
+
+<!-- HERO SECTION START -->
+<section id="home" class="welcome-hero">
+    <div class="container">
+        <div class="welcome-hero-txt">
+            <h2>Discover the Best Places Around You</h2>
+            <p>Restaurants, hotels, healthcare, automotive, and more—all in one click.</p>
+        </div>
+        <div class="welcome-hero-serch-box">
+            <div class="welcome-hero-form">
+                <div class="single-welcome-hero-form">
+                    <h3>What?</h3>
+                    <form action="#">
+                        <input type="text" placeholder="e.g. Restaurant, Hotel, Gym..." />
+                    </form>
+                    <div class="welcome-hero-form-icon">
+                        <i class="flaticon-list-with-dots"></i>
+                    </div>
+                </div>
+                <div class="single-welcome-hero-form">
+                    <h3>Location</h3>
+                    <form action="#">
+                        <input type="text" placeholder="e.g. Lagos, Abuja, Port Harcourt" />
+                    </form>
+                    <div class="welcome-hero-form-icon">
+                        <i class="flaticon-gps-fixed-indicator"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="welcome-hero-serch">
+                <button class="welcome-hero-btn" onclick="window.location.href='#'">
+                    Search <i data-feather="search"></i>
+                </button>
+            </div>
+        </div>
+        <div class="list-business-btn text-center" style="margin-top:20px;">
+            <a href="#" class="btn btn-primary">📢 List Your Business</a>
+        </div>
+    </div>
+</section>
+<!-- HERO SECTION END -->
+
+<!-- LIST TOPICS START -->
+<section id="list-topics" class="list-topics">
+    <div class="container">
+        <div class="list-topics-content">
+            <ul>
+                <li>
+                    <div class="single-list-topics-content">
+                        <div class="single-list-topics-icon"><i class="flaticon-restaurant"></i></div>
+                        <h2><a href="#">Restaurants</a></h2>
+                        <p>200+ listings</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="single-list-topics-content">
+                        <div class="single-list-topics-icon"><i class="flaticon-travel"></i></div>
+                        <h2><a href="#">Destinations</a></h2>
+                        <p>300+ listings</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="single-list-topics-content">
+                        <div class="single-list-topics-icon"><i class="flaticon-building"></i></div>
+                        <h2><a href="#">Hotels</a></h2>
+                        <p>180+ listings</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="single-list-topics-content">
+                        <div class="single-list-topics-icon"><i class="flaticon-pills"></i></div>
+                        <h2><a href="#">Healthcare</a></h2>
+                        <p>250+ listings</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="single-list-topics-content">
+                        <div class="single-list-topics-icon"><i class="flaticon-transport"></i></div>
+                        <h2><a href="#">Automotive</a></h2>
+                        <p>150+ listings</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- LIST TOPICS END -->
+
+
+<!-- ✅ Works Section Start -->
+<section id="works" class="works">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>How It Works</h2>
+            <p>Learn more about how our website helps you explore amazing places effortlessly</p>
+        </div>
+        <div class="works-content">
+            <div class="row">
+                <!-- Step 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-how-works">
+                        <div class="single-how-works-icon">
+                            <i class="flaticon-lightbulb-idea"></i>
+                        </div>
+                        <h2><a href="javascript:void(0);">Choose <span>what to do</span></a></h2>
+                        <p>
+                            Discover endless activities, destinations, and unique experiences tailored to your interests.
+                        </p>
+                        <button class="welcome-hero-btn how-work-btn">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-how-works">
+                        <div class="single-how-works-icon">
+                            <i class="flaticon-networking"></i>
+                        </div>
+                        <h2><a href="javascript:void(0);">Find <span>what you want</span></a></h2>
+                        <p>
+                            Filter through top-rated listings and explore curated recommendations just for you.
+                        </p>
+                        <button class="welcome-hero-btn how-work-btn">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-how-works">
+                        <div class="single-how-works-icon">
+                            <i class="flaticon-location-on-road"></i>
+                        </div>
+                        <h2><a href="javascript:void(0);">Explore <span>amazing places</span></a></h2>
+                        <p>
+                            Embark on exciting journeys and enjoy authentic experiences wherever you go.
+                        </p>
+                        <button class="welcome-hero-btn how-work-btn">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ✅ Works Section End -->
+
+<!-- ✅ Explore Section Start -->
+<section id="explore" class="explore">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>Explore</h2>
+            <p>Discover top-rated destinations, food, culture, and experiences around the world 🌍</p>
+        </div>
+        <div class="explore-content">
+            <div class="row">
+
+                <!-- 🔹 Explore Item 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-explore-item">
+                        <div class="single-explore-img">
+                            <img src="assets/images/explore/e1.jpg" alt="Tommy Helfinger Bar">
+                            <div class="single-explore-img-info">
+                                <button>Best Rated</button>
+                                <div class="single-explore-image-icon-box">
+                                    <ul>
+                                        <li><div class="single-explore-image-icon"><i class="fa fa-arrows-alt"></i></div></li>
+                                        <li><div class="single-explore-image-icon"><i class="fa fa-bookmark-o"></i></div></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-explore-txt bg-theme-1">
+                            <h2><a href="#">Tommy Helfinger Bar</a></h2>
+                            <p class="explore-rating-price">
+                                <span class="explore-rating">⭐ 5.0</span>
+                                <a href="#"> 10 reviews</a> 
+                                <span class="explore-price-box">from <span class="explore-price">$5 - $300</span></span>
+                                <a href="#">Restaurant</a>
+                            </p>
+                            <div class="explore-person">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <div class="explore-person-img">
+                                            <img src="assets/images/explore/person.png" alt="Reviewer">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <p>
+                                            A trendy bar offering delicious cocktails and vibrant nightlife vibes. Perfect for a chill evening out!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="explore-open-close-part">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <button class="close-btn">Closed Now</button>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="explore-map-icon">
+                                            <a href="#"><i data-feather="map-pin"></i></a>
+                                            <a href="#"><i data-feather="upload"></i></a>
+                                            <a href="#"><i data-feather="heart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🔹 Explore Item 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-explore-item">
+                        <div class="single-explore-img">
+                            <img src="assets/images/explore/e2.jpg" alt="Swim and Dine Resort">
+                            <div class="single-explore-img-info">
+                                <button>Featured</button>
+                                <div class="single-explore-image-icon-box">
+                                    <ul>
+                                        <li><div class="single-explore-image-icon"><i class="fa fa-arrows-alt"></i></div></li>
+                                        <li><div class="single-explore-image-icon"><i class="fa fa-bookmark-o"></i></div></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-explore-txt bg-theme-2">
+                            <h2><a href="#">Swim & Dine Resort</a></h2>
+                            <p class="explore-rating-price">
+                                <span class="explore-rating">⭐ 4.5</span>
+                                <a href="#"> 8 reviews</a>
+                                <span class="explore-price-box">from <span class="explore-price">$50 - $500</span></span>
+                                <a href="#">Hotel</a>
+                            </p>
+                            <div class="explore-person">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <div class="explore-person-img">
+                                            <img src="assets/images/explore/person.png" alt="Reviewer">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <p>
+                                            A luxury escape with stunning pools, fine dining, and breathtaking views for a relaxing getaway.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="explore-open-close-part">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <button class="close-btn open-btn">Open Now</button>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="explore-map-icon">
+                                            <a href="#"><i data-feather="map-pin"></i></a>
+                                            <a href="#"><i data-feather="upload"></i></a>
+                                            <a href="#"><i data-feather="heart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🔹 Explore Item 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-explore-item">
+                        <div class="single-explore-img">
+                            <img src="assets/images/explore/e3.jpg" alt="Europe Tour">
+                            <div class="single-explore-img-info">
+                                <button>Best Rated</button>
+                                <div class="single-explore-image-icon-box">
+                                    <ul>
+                                        <li><div class="single-explore-image-icon"><i class="fa fa-arrows-alt"></i></div></li>
+                                        <li><div class="single-explore-image-icon"><i class="fa fa-bookmark-o"></i></div></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-explore-txt bg-theme-3">
+                            <h2><a href="#">Europe Tour</a></h2>
+                            <p class="explore-rating-price">
+                                <span class="explore-rating">⭐ 5.0</span>
+                                <a href="#"> 15 reviews</a>
+                                <span class="explore-price-box">from <span class="explore-price">$5k - $10k</span></span>
+                                <a href="#">Destination</a>
+                            </p>
+                            <div class="explore-person">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <div class="explore-person-img">
+                                            <img src="assets/images/explore/person.png" alt="Reviewer">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <p>
+                                            A guided journey through the most iconic European cities, filled with culture, food, and adventure.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="explore-open-close-part">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <button class="close-btn">Closed Now</button>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="explore-map-icon">
+                                            <a href="#"><i data-feather="map-pin"></i></a>
+                                            <a href="#"><i data-feather="upload"></i></a>
+                                            <a href="#"><i data-feather="heart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!--/.row-->
+        </div><!--/.explore-content-->
+    </div><!--/.container-->
+</section>
+<!-- ✅ Explore Section End -->
+
+
+<!-- ✅ Reviews Section Start -->
+<section id="reviews" class="reviews">
+    <div class="section-header text-center">
+        <h2>What Our Clients Say ❤️</h2>
+        <p>Real stories from people who trusted us with their experiences.</p>
+    </div>
+    <div class="reviews-content">
+        <div class="testimonial-carousel">
+
+            <!-- 🔹 Testimonial 1 -->
+            <div class="single-testimonial-box">
+                <div class="testimonial-description">
+                    <div class="testimonial-info">
+                        <div class="testimonial-img">
+                            <img src="assets/images/clients/c1.png" alt="client">
+                        </div>
+                        <div class="testimonial-person">
+                            <h2>Emily Carter</h2>
+                            <h4>Toronto, Canada</h4>
+                            <div class="testimonial-person-star">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-comment">
+                        <p>
+                            “Absolutely loved using this platform! Found the best restaurants in no time, and the recommendations were spot on. Definitely my go-to app for exploring new places.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🔹 Testimonial 2 -->
+            <div class="single-testimonial-box">
+                <div class="testimonial-description">
+                    <div class="testimonial-info">
+                        <div class="testimonial-img">
+                            <img src="assets/images/clients/c2.png" alt="client">
+                        </div>
+                        <div class="testimonial-person">
+                            <h2>James Walker</h2>
+                            <h4>London, UK</h4>
+                            <div class="testimonial-person-star">
+                                ⭐⭐⭐⭐☆
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-comment">
+                        <p>
+                            “Great selection of listings and super easy to navigate. I only gave 4 stars because I wish there were more exclusive deals available for frequent users.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🔹 Testimonial 3 -->
+            <div class="single-testimonial-box">
+                <div class="testimonial-description">
+                    <div class="testimonial-info">
+                        <div class="testimonial-img">
+                            <img src="assets/images/clients/c3.png" alt="client">
+                        </div>
+                        <div class="testimonial-person">
+                            <h2>Olivia Martinez</h2>
+                            <h4>Madrid, Spain</h4>
+                            <div class="testimonial-person-star">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-comment">
+                        <p>
+                            “This site helped me plan my trip perfectly. The reviews were genuine and I even got discounts on some bookings. 10/10 would recommend!”
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 🔹 Testimonial 4 -->
+            <div class="single-testimonial-box">
+                <div class="testimonial-description">
+                    <div class="testimonial-info">
+                        <div class="testimonial-img">
+                            <img src="assets/images/clients/c4.png" alt="client">
+                        </div>
+                        <div class="testimonial-person">
+                            <h2>Daniel Kim</h2>
+                            <h4>Seoul, South Korea</h4>
+                            <div class="testimonial-person-star">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-comment">
+                        <p>
+                            “The interface is clean, smooth, and I love how I can save my favorite spots for later. Feels like a travel buddy in my pocket!”
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ✅ Reviews Section End -->
+
+
+<!-- ✅ Statistics Section Start -->
+<section id="statistics" class="statistics">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>Our Growing Community 🌍</h2>
+            <p>Numbers that speak louder than words – here’s why people love us!</p>
+        </div>
+
+        <div class="statistics-counter row text-center">
+
+            <!-- 🔹 Stat 1 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="single-statistics-box">
+                    <div class="statistics-content">
+                        <div class="counter">120</div> <span>K+</span>
+                    </div>
+                    <h3>Active Listings</h3>
+                    <p>From cafes to gyms, find all your favorite spots in one place.</p>
+                </div>
+            </div>
+
+            <!-- 🔹 Stat 2 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="single-statistics-box">
+                    <div class="statistics-content">
+                        <div class="counter">75</div> <span>K+</span>
+                    </div>
+                    <h3>Categories Covered</h3>
+                    <p>Restaurants, travel, events, services, and many more.</p>
+                </div>
+            </div>
+
+            <!-- 🔹 Stat 3 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="single-statistics-box">
+                    <div class="statistics-content">
+                        <div class="counter">200</div> <span>K+</span>
+                    </div>
+                    <h3>Monthly Visitors</h3>
+                    <p>Our platform connects thousands of explorers every day.</p>
+                </div>
+            </div>
+
+            <!-- 🔹 Stat 4 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="single-statistics-box">
+                    <div class="statistics-content">
+                        <div class="counter">98</div> <span>%</span>
+                    </div>
+                    <h3>Happy Clients</h3>
+                    <p>Satisfaction guaranteed with every listing experience.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ✅ Statistics Section End -->
+
+
+<!-- ✅ Blog Section Start -->
+<section id="blog" class="blog">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>📰 Latest News & Articles</h2>
+            <p>Stay inspired, discover tips, and keep up with trending destinations.</p>
+        </div>
+
+        <div class="blog-content">
+            <div class="row">
+
+                <!-- 🔹 Blog Post 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-blog-item">
+                        <div class="single-blog-item-img">
+                            <img src="assets/images/blog/b1.jpg" alt="Travel blog image">
+                            <span class="blog-tag">Travel Tips</span>
+                        </div>
+                        <div class="single-blog-item-txt">
+                            <h2><a href="#">Top 10 Hacks to Find Your Perfect Spot Fast 🏝️</a></h2>
+                            <h4>by <a href="#">Admin</a> • March 2025</h4>
+                            <p>Discover smart tricks to find hidden gems near you without endless searching.</p>
+                            <a href="#" class="read-more-btn">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🔹 Blog Post 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-blog-item">
+                        <div class="single-blog-item-img">
+                            <img src="assets/images/blog/b2.jpg" alt="Food blog image">
+                            <span class="blog-tag">Foodie Guide</span>
+                        </div>
+                        <div class="single-blog-item-txt">
+                            <h2><a href="#">Best Restaurants to Try in 2025 🍽️</a></h2>
+                            <h4>by <a href="#">Admin</a> • March 2025</h4>
+                            <p>From street food to luxury dining, here’s where your taste buds will thank you.</p>
+                            <a href="#" class="read-more-btn">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 🔹 Blog Post 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-blog-item">
+                        <div class="single-blog-item-img">
+                            <img src="assets/images/blog/b3.jpg" alt="Events blog image">
+                            <span class="blog-tag">Trending</span>
+                        </div>
+                        <div class="single-blog-item-txt">
+                            <h2><a href="#">Top Events You Can’t Miss This Year 🎉</a></h2>
+                            <h4>by <a href="#">Admin</a> • March 2025</h4>
+                            <p>Mark your calendar for these must-attend cultural and social experiences worldwide.</p>
+                            <a href="#" class="read-more-btn">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ✅ Blog Section End -->
+
+
+<!-- ✅ Subscription Section Start -->
+<section id="contact" class="subscription">
+    <div class="container">
+        <div class="subscribe-title text-center">
+            <h2>🚀 Ready to Put Your Business on the Map?</h2>
+            <p>
+                Join thousands of smart business owners boosting their visibility with <strong>Bizoria </strong>.  
+                Get discovered, attract more clients, and grow fast.
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="subscription-input-group">
+                    <form action="#">
+                        <input type="email" class="subscription-input-form" placeholder="📧 Enter your email to get started" required>
+                        <button type="submit" class="appsLand-btn subscribe-btn">
+                            🚀 Create Free Account
+                        </button>
+                    </form>
+                    <small class="privacy-note">
+                        🔒 We respect your privacy – no spam, just opportunities.
+                    </small>
+                </div>
+            </div>  
+        </div>
+    </div>
+</section>
+<!-- ✅ Subscription Section End -->
+<!-- ✅ Footer Section Start -->
+<footer id="footer" class="footer">
+    <div class="container">
+        <!-- 🌐 Top Footer Menu -->
+        <div class="footer-menu">
+            <div class="row align-items-center">
+                <div class="col-sm-3">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                           Bizoria 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-9 text-right">
+                    <ul class="footer-menu-item">
+                        <li class="scroll"><a href="#works">How it works</a></li>
+                        <li class="scroll"><a href="#explore">Explore</a></li>
+                        <li class="scroll"><a href="#reviews">Reviews</a></li>
+                        <li class="scroll"><a href="#blog">Blog</a></li>
+                        <li class="scroll"><a href="#contact">Contact</a></li>
+                        <li class="scroll"><a href="#contact">My Account</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 🔗 Bottom Footer -->
+        <div class="hm-footer-copyright">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <p>
+                        &copy; <span id="year"></span> Bizoria  | Designed with ❤️ by 
+                        <a href="https://www.themesine.com/" target="_blank">Khaddy✨</a>
+                    </p>
+                </div>
+                <div class="col-md-7 text-right">
+                    <div class="footer-social">
+                        <span><i class="fa fa-phone"></i> +234 907 413 2182</span>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ⬆ Back to Top Button -->
+    <div id="scroll-Top">
+        <div class="return-to-top">
+            <i class="fa fa-angle-up" id="scroll-top" title="Back to Top"></i>
+        </div>
+    </div>
+</footer>
+<!-- ✅ Footer Section End -->
+
+<script>
+    // Auto-update year dynamically
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+	<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+        <!--feather.min.js-->
+        <script  src="assets/js/feather.min.js"></script>
+
+        <!-- counter js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+
+        <!--slick.min.js-->
+        <script src="assets/js/slick.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		     
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
+</html>
